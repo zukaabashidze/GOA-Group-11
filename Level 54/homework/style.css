@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e7ef;
+}
+
+.mana {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.img-mana {
+    flex: 1;
+}
+
+.ajaka {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.lekvi {
+    width: 50px;
+    height: 50px;
+    background: url('path/to/logo.png') no-repeat center center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.lekvi {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.forgot-password {
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.sign-in-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sign-in-btn:hover {
+    background-color: #0056b3;
+}
+
+.sign-up {
+    margin-top: 20px;
+    color: #666;
+}
+
+.sign-up a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sign-up a:hover {
+    text-decoration: underline;
+}
