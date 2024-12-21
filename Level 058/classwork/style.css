@@ -1,0 +1,14 @@
+
+.clas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classw{
+  align-self: flex-end
+}
+
+.ara{
+    flex-wrap: wrap; 
+}
