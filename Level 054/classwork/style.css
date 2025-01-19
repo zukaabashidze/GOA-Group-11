@@ -1,0 +1,21 @@
+/* a{
+    color:black;
+}
+a:hover{
+    background-color: blue;
+    text-decoration: overline;
+}
+
+a:active{
+    background-color: blue;
+    color:red;
+} */
+.parent{
+    width:400px;
+    height: 200px;
+
+    border: 6px solid red;
+    background-color: rgb(0, 255, 13);
+    margin: 50px 50px 50px 15px;
+    padding: 30px 15px;
+}

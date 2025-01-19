@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #817f7f;
+}
+.parent{
+    background-image: url("photo-tbilisi-3.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px ;
+}
+
+.parent:hover{
+    box-shadow: 0 0 35px;
+    transition: 0.4s;
+}
+
+.grandchildren{
+    font-size: 30;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
